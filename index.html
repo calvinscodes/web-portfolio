@@ -13,54 +13,56 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
-    <div class="underlay"></div>
+<body id="top-of-page">
     <header>
-        <a href="/portfolio/index.html">
-            <h1>Calvin Swart</h1>
+        <a href="/">
+            <h1 class="name-title">Calvin Swart</h1>
         </a>
         <h4>Full Stack Developer</h4>
         <p>I build seamless, accessible and engaging digital experiences from concept to code.</p>
         <nav>
-            <a>
-                <p>About</p>
+            <a class="nav-text" href="#about">
+                <div class="nav-line"></div>
+                <p>ABOUT</p>
             </a>
-            <a>
-                <p>Experience</p>
+            <a class="nav-text" href="#experience">
+                <div class="nav-line"></div>
+                <p>EXPERIENCE</p>
             </a>
-            <a>
-                <p>Projects</p>
+            <a class="nav-text" href="#projects">
+                <div class="nav-line"></div>
+                <p>PROJECTS</p>
             </a>
         </nav>
-        <div>
-            <a>ICON</a>
-            <a>ICON</a>
-            <a>ICON</a>
-            <a>ICON</a>
-            <a>ICON</a>
-            <a>ICON</a>
+        <div class="social-link-container">
+            <a class="social-link" href="https://github.com/calvinscodes" target="_blank" ><i class="fa-brands fa-github"></i>
+            </a>
+            <a class="social-link" href="https://www.linkedin.com/in/calvin-swart-9694aa109/" target="_blank" ><i class="fa-brands fa-linkedin"></i>
+            </a>
         </div>
     </header>
     <main>
-        <section>
-            <div>
+        <section class="about-section" id="about">
+            <div class="sticky-header">
                 <h2 class="lightText">About</h2>
             </div>
             <div class="about-contents">
-                <p>Hi, I’m Calvin, a full stack developer passionate about creating meaningful, <a target="_blank" class="anchor-text" href="/portfolio/index.html">responsive designs</a> that adapt beautifully across all devices. As I build my skills in this fast-evolving field, I’m focused on crafting clean, user-friendly interfaces and learning from each project along the way.</p>
+                <p>Hi, I’m Calvin, a full stack developer passionate about creating meaningful, <a target="_blank" class="anchor-text" href="/">responsive designs</a> that adapt beautifully across all devices. As I build my skills in this fast-evolving field, I’m focused on crafting clean, user-friendly interfaces and learning from each project along the way.</p>
                 <p>With a blend of analytical, creative, and collaborative strengths, I’m excited to take on projects that challenge me to think beyond the basics. I thrive in team environments where I can gain new perspectives, refine my technical expertise, and contribute to building seamless digital experiences. Let’s create something impactful together!</p>
             </div>
         </section>
-        <section>
-            <div>
+        <section class="experience-section" id="experience">
+            <div class="sticky-header">
                 <h2 class="lightText">Experience</h2>
             </div>
             <div class="experience-contents">
                 <div class="experience-card">
                     <p class="tenure">2024 - present</p>
                     <div class="card-column">
-                        <a href="/portfolio/index.html" target="_blank">
-                            <h3 class="anchor-text card-header">Technical Expert · Apple ICON</h3>
+                        <a class="card-header-link" href="https://www.apple.com" target="_blank">
+                            <h3 class="anchor-text card-header">Technical Expert · Apple
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </h3>
                         </a>
                         <p>As a Technical Expert, my role revolves around repairing and strengthening customer relationships, mentoring and guiding the technical team, and delivering high-quality iPhone repairs. Committed to creating positive customer experiences and fostering a supportive, knowledgeable environment for both customers and colleagues.</p>
                         <div class="tag-container">
@@ -80,20 +82,140 @@
                         </div>
                     </div>
                 </div>
+                <div class="experience-contents">
+                    <div class="experience-card">
+                        <p class="tenure">2023 - 2024</p>
+                        <div class="card-column">
+                            <a class="card-header-link" href="/" target="_blank">
+                                <h3 class="anchor-text card-header">Lead ISE · Apple <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </h3>
+                            </a>
+                            <p>Participated in an in-store Lead experience at Apple, focusing on achieving operational excellence by managing team scheduling, addressing team queries, and ensuring smooth daily operations. Responsible for opening and closing the store, and providing on-floor and off-floor support to foster a cohesive and efficient environment.</p>
+                            <div class="tag-container">
+                                <div class="tag">
+                                    <p>Analytical Skills</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Communication</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Store Opening</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Management</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Mentoring</p>
+                                </div>
+                                <div class="tag">
+                                    <p>Schedule Management</p>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-contents">
+                        <div class="experience-card">
+                            <p class="tenure">2022 - 2024</p>
+                            <div class="card-column">
+                                <a class="card-header-link" href="/" target="_blank">
+                                    <h3 class="anchor-text card-header">Technical Specialist · Apple  <i class="fa-solid fa-arrow-up-right-from-square"></i></h3> 
+                                </a>
+                                <p>As a Technical Specialist at Apple, I provided personalized support and guidance to customers, ensuring they had a seamless experience with Apple technology. Whether assisting customers on the spot with advice or troubleshooting or connecting them with expert support team members, I focused on delivering solutions efficiently and effectively.</p>
+                                <div class="tag-container">
+                                    <div class="tag">
+                                        <p>Technical Support</p>
+                                    </div>
+                                    <div class="tag">
+                                        <p>iOS Troubleshooting</p>
+                                    </div>
+                                    <div class="tag">
+                                        <p>Mentoring</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>     
             </div>
+            <a class="anchor-text project-archive-link" href="/" target="_blank"><p>View Full Resume
+                <span><i class="fa-solid fa-arrow-right"></i></span>
+            </p></a>
         </section>
-        <section>
-            <div>
+        <section id="projects">
+            <div class="sticky-header">
                 <h2 class="lightText">Projects</h2>
             </div>
-            <div>
-                CONTENTS
+            <div class="project-contents">
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="public/hyr_sh.png" alt="hyr_sh-thumbnail" />
+                    </div>
+                    <div class="card-column">
+                        <a href="/" target="_blank">
+                            <h3 class="anchor-text card-header">Technical Expert · Apple  <i class="fa-brands fa-apple"></i></h3>
+                        </a>
+                        <p>As a Technical Expert, my role revolves around repairing and strengthening customer relationships, mentoring and guiding the technical team, and delivering high-quality iPhone repairs. Committed to creating positive customer experiences and fostering a supportive, knowledgeable environment for both customers and colleagues.</p>
+                        <a class="anchor-text project-stat-link" href="/" target="_blank"><i class="fa-solid fa-star"></i><p>635</p></a>
+                        <div class="tag-container">
+                            <div class="tag">
+                                <p>Technical Support</p>
+                            </div>
+                            <div class="tag">
+                                <p>iOS Troubleshooting</p>
+                            </div>
+                            <div class="tag">
+                                <p>Mentoring</p>
+                            </div>
+                            <div class="tag">
+                                <p>iPhone Repair</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="public/hyr_sh.png" alt="hyr_sh-thumbnail" />
+                    </div>
+                    <div class="card-column">
+                        <a href="/" target="_blank">
+                            <h3 class="anchor-text card-header">Technical Expert · Apple  <i class="fa-brands fa-apple"></i></h3>
+                        </a>
+                        <p>As a Technical Expert, my role revolves around repairing and strengthening customer relationships, mentoring and guiding the technical team, and delivering high-quality iPhone repairs. Committed to creating positive customer experiences and fostering a supportive, knowledgeable environment for both customers and colleagues.</p>
+                        <a class="anchor-text project-stat-link" href="/" target="_blank"><i class="fa-solid fa-star"></i><p>635</p></a>
+                        <div class="tag-container">
+                            <div class="tag">
+                                <p>Technical Support</p>
+                            </div>
+                            <div class="tag">
+                                <p>iOS Troubleshooting</p>
+                            </div>
+                            <div class="tag">
+                                <p>Mentoring</p>
+                            </div>
+                            <div class="tag">
+                                <p>iPhone Repair</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <a class="anchor-text project-archive-link" href="/" target="_blank"><p>View Full Project Archive <span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </span></p></a>
         </section>
     </main>
     <footer>
-        <p>PLACEHOLDER TEXT</p>
+        <p>
+            Coded in <a href="https://code.visualstudio.com/" target="_blank" class="anchor-text">Visual Studio Code</a>
+            by yours truly. <br />Built with HTML & CSS, and
+            deployed with <a href="https://www.netlify.com" target="_blank" class="anchor-text">Netlify</a>. <br />All
+            Text is
+            set in the <a href="https://rsms.me/inter/" target="_blank" class="anchor-text">Inter</a> typeface. 
+        </p>
+        <a href="#top-of-page" class="scroll-to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        <a>
     </footer>
 </body>
-
 </html>
