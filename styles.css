@@ -14,7 +14,6 @@ html {
 * {
     /* making a box in the window to prevent overflow */
     box-sizing: border-box;
-    /* outline: 2px solid red; */
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
@@ -121,13 +120,11 @@ nav a {
 
 
 nav a:hover .nav-line {
-    /* ADDED POST TUTORIAL */
     background: var(--color-accent);
     width: 28px;
 }
 
 .nav-line {
-    /* ADDED POST TUTORIAL */
     height: 1px;
     width: 20px;
     background: var(--color-highlight);
@@ -320,16 +317,6 @@ section h2 {
     padding-left: 0.5rem;
 }
 
-/* .project-archive-link::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 0px;
-    bottom: 0;
-    background: transparent;
-} */
-
 .project-archive-link:hover::after {
     background: var(--color-accent);
     transition-duration: 200ms;
@@ -365,6 +352,8 @@ footer {
 
     body {
         padding: 5rem 3rem;
+        margin: 0;
+        height: 100%;
     }
 
     .project-card,
@@ -438,7 +427,6 @@ footer {
     }
 
     nav {
-        /* MODIFIED POST TUTORIAL */
         padding: 2rem 0;
         display: flex;
         flex-direction: column;
@@ -473,7 +461,6 @@ footer {
         display: none;
     }
 
-      /* ADDED POST TUTORIAL */
       .project-card,
       .experience-card {
           padding: 1rem;
@@ -482,7 +469,6 @@ footer {
           transition-duration: 200ms;
       }
   
-      /* ADDED POST TUTORIAL */
       .project-card:hover,
       .experience-card:hover {
           background: #1b2541;
