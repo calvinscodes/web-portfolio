@@ -14,6 +14,7 @@ html {
 * {
     /* making a box in the window to prevent overflow */
     box-sizing: border-box;
+    /* outline: 2px solid red; */
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
@@ -461,6 +462,7 @@ footer {
         display: none;
     }
 
+      /* ADDED POST TUTORIAL */
       .project-card,
       .experience-card {
           padding: 1rem;
